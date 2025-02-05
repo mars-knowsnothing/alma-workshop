@@ -38,6 +38,13 @@ export default function MobileMenu() {
               Event Details
             </Link>
             <Link
+              href="/venue"
+              className="text-gray-600 hover:text-gray-900"
+              onClick={() => setIsOpen(false)}
+            >
+              Venue
+            </Link>
+            <Link
               href="/organizers"
               className="text-gray-600 hover:text-gray-900"
               onClick={() => setIsOpen(false)}

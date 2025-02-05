@@ -1,7 +1,6 @@
 {
-  "/page": "app/page.js",
+  "/registration/page": "app/registration/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/details/page": "app/details/page.js",
-  "/organizers/page": "app/organizers/page.js",
-  "/registration/page": "app/registration/page.js"
+  "/venue/page": "app/venue/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

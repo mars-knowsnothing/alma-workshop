@@ -17,6 +17,9 @@ export default function Navigation() {
             <Link href="/details" className="text-gray-600 hover:text-gray-900">
               Event Details
             </Link>
+            <Link href="/venue" className="text-gray-600 hover:text-gray-900">
+              Venue
+            </Link>
             <Link href="/organizers" className="text-gray-600 hover:text-gray-900">
               Organizers
             </Link>
