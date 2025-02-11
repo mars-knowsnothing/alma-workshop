@@ -1,14 +1,14 @@
 export default function Organizers() {
   const scientificCommittee = [
-    "Gregory Herczeg",
-    "Ruobing Dong",
+    "Gregory Herczeg (gherezegl@gmail.com)",
+    "Ruobing Dong (rbdong@pku.edu.cn)",
     "Ke Wang",
     "Ran Wang"
   ]
 
   const localCommittee = [
-    "Min Sun",
-    "Ruobing Dong"
+    "Min Sun (18905568578)",
+    "Ruobing Dong (rbdong@pku.edu.cn)"
   ]
 
   return (
