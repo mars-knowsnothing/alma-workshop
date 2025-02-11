@@ -16,13 +16,13 @@ export default function Details() {
       time: "14:00 -- 15:15",
       day1: "Cycle 12 introduction and proposal preparation basics",
       day2: "Proposal review basics",
-      day3: "John's talk on WSU"
+      day3: "Work on individual proposals"
     },
     {
       time: "15:45 -- 17:00",
       day1: "OT demonstration",
       day2: "Breakout session on proposal review",
-      day3: "Work on individual proposals"
+      day3: "KIAA Colloquium by John (15:30 PM)"
     }
   ]
 
@@ -85,8 +85,7 @@ export default function Details() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Target Audience</h2>
             <p>
-              This workshop is primarily designed for students and postdoctoral 
-              researchers interested in utilizing ALMA for their research projects.
+              This workshop is primarily designed for students, postdoctoral researchers, and senior researchers interested in utilizing ALMA and applying for its time for their research projects.
             </p>
           </section>
         </div>

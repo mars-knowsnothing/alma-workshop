@@ -31,9 +31,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-8">Workshop Overview</h2>
           <div className="max-w-3xl mx-auto text-gray-600 space-y-4">
             <p>
-              Join us for an intensive workshop focused on ALMA proposal writing and 
-              reviewing processes. This workshop is designed for students and postdoctoral 
-              researchers interested in utilizing ALMA for their research.
+            Join us for an intensive workshop focused on Atacama Large Millimeter/submillimeter Array (ALMA) proposal writing and reviewing processes led by ALMA Observatory Scientist John Carpenter. Dr. Carpenter is a member of the ALMA science operations team, responsible for managing the application and allocation of observing time. This workshop is designed for students and postdoctoral researchers interested in utilizing ALMA for their research.
             </p>
             <p>
               Through hands-on activities and expert guidance, participants will gain 

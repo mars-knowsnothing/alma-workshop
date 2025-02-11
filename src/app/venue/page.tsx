@@ -12,7 +12,7 @@ export default function Venue() {
             <h2 className="text-2xl font-semibold mb-4">Location</h2>
             <p className="text-lg text-gray-700">
               This symposium will take place both at the Kavli Institute for Astronomy 
-              and Astrophysics at Peking University (KIAA-PKU) and online via Tencent Meeting.
+              and Astrophysics at Peking University (KIAA-PKU).
             </p>
           </section>
 
