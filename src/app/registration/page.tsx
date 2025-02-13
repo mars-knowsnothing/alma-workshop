@@ -10,7 +10,7 @@ export default function Registration() {
           <section className="bg-blue-50 p-6 rounded-lg">
             <h2 className="text-2xl font-semibold mb-4">Important Dates</h2>
             <p className="text-lg text-gray-700">
-              Registration Deadline: <span className="font-semibold">March 7, 2025</span>
+              Registration Deadline: <span className="font-semibold">March 2, 2025</span>
             </p>
           </section>
 
@@ -23,7 +23,7 @@ export default function Registration() {
               <ol className="list-decimal pl-6 mt-4">
                 <li>Fill out the online registration form</li>
                 <li>Complete the pre-workshop questionnaire</li>
-                <li>Wait for confirmation email (within 5 business days)</li>
+                <li>Wait for confirmation email (within 5 business days from the deadline)</li>
               </ol>
               <p className="mt-4">
                 Due to limited capacity, participants will be selected based on their 
