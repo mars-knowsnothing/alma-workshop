@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  // 确保生成正确的静态页面
+  trailingSlash: true,
   // 如果您的网站不是部署在域名根目录，需要设置 basePath
   // basePath: '/your-base-path',
   
