@@ -10,7 +10,7 @@ export default function Registration() {
           <section className="bg-blue-50 p-6 rounded-lg">
             <h2 className="text-2xl font-semibold mb-4">Important Dates</h2>
             <p className="text-lg text-gray-700">
-              Registration Deadline: <span className="font-semibold">March 2, 2025</span>
+              Registration Deadline: <span className="font-semibold">March 7, 2025</span>
             </p>
           </section>
 
