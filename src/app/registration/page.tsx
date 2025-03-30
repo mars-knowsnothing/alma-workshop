@@ -4,18 +4,18 @@ export default function Registration() {
   return (
     <main className="min-h-screen bg-white py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Registration</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">Registration</h1>
         
         <div className="max-w-4xl mx-auto space-y-8">
           <section className="bg-blue-50 p-6 rounded-lg">
-            <h2 className="text-2xl font-semibold mb-4">Important Dates</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">Important Dates</h2>
             <p className="text-lg text-gray-700">
               Registration Deadline: <span className="font-semibold">March 10, 2025</span>
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Registration Process</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">Registration Process</h2>
             <div className="prose max-w-none">
               <p>
                 To register for the ALMA Proposal Workshop, please complete the following steps:
