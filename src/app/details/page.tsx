@@ -8,7 +8,7 @@ export default function Details() {
     },
     {
       time: "10:45 -- 11:15",
-      day1: "Group Photo & Tea Break",
+      day1: <a href="/group_photo.png" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Group Photo & Tea Break</a>,
       day2: "Tea Break",
       day3: "Tea Break"
     },
