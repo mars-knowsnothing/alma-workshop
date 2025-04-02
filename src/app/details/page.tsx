@@ -2,7 +2,7 @@ export default function Details() {
   const schedule = [
     {
       time: "09:30 -- 10:45",
-      day1: "ALMA overview",
+      day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/01_ALMA_overview.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">ALMA overview</a>,
       day2: "Proposal preparation tips",
       day3: "Breakout session to discuss proposal reviews"
     },
@@ -14,7 +14,7 @@ export default function Details() {
     },
     {
       time: "11:15 -- 12:30",
-      day1: "Radio interferometry and synthesis imaging basics",
+      day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/02_Radio_interferometry.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Radio interferometry and synthesis imaging basics</a>,
       day2: "Breakout session on proposal preparation",
       day3: "Group discussion on proposal reviews"
     },
@@ -26,7 +26,7 @@ export default function Details() {
     },
     {
       time: "14:00 -- 15:15",
-      day1: "Cycle 12 introduction and proposal preparation basics",
+      day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/03_Cycle12_overview.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Cycle 12 introduction and proposal preparation basics</a>,
       day2: "Proposal review basics",
       day3: "Work on individual proposals"
     },
@@ -38,7 +38,7 @@ export default function Details() {
     },
     {
       time: "15:45 -- 17:00",
-      day1: "OT demonstration",
+      day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/John_example.aot" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">OT demonstration</a>,
       day2: "Breakout session on proposal review",
       day3: "KIAA Colloquium by John"
     }
@@ -105,6 +105,24 @@ export default function Details() {
             <p className="text-gray-600">
               This workshop is primarily designed for students, postdoctoral researchers, and senior researchers interested in utilizing ALMA and applying for its time for their research projects.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800">Announcement</h2>
+            <div className="flex justify-center">
+              <a 
+                href="/announcement.png" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+              >
+                <img 
+                  src="/announcement.png" 
+                  alt="Workshop Announcement" 
+                  className="max-w-full h-auto rounded-lg shadow-md"
+                />
+              </a>
+            </div>
           </section>
         </div>
       </div>
