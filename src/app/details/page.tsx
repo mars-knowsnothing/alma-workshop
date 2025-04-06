@@ -3,7 +3,7 @@ export default function Details() {
     {
       time: "09:30 -- 10:45",
       day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/01_ALMA_overview.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">ALMA overview</a>,
-      day2: "Proposal preparation tips",
+      day2: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/05_Proposal_tips.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Proposal preparation tips</a>,
       day3: "Breakout session to discuss proposal reviews"
     },
     {
@@ -15,7 +15,7 @@ export default function Details() {
     {
       time: "11:15 -- 12:30",
       day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/02_Radio_interferometry.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Radio interferometry and synthesis imaging basics</a>,
-      day2: "Breakout session on proposal preparation",
+      day2: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/06_snr.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Breakout session on proposal preparation</a>,
       day3: "Group discussion on proposal reviews"
     },
     {
@@ -27,7 +27,7 @@ export default function Details() {
     {
       time: "14:00 -- 15:15",
       day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/03_Cycle12_overview.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Cycle 12 introduction and proposal preparation basics</a>,
-      day2: "Proposal review basics",
+      day2: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/07_Cycle12_reviews.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Proposal review basics</a>,
       day3: "Work on individual proposals"
     },
     {
@@ -39,7 +39,7 @@ export default function Details() {
     {
       time: "15:45 -- 17:00",
       day1: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/John_example.aot" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">OT demonstration</a>,
-      day2: "Breakout session on proposal review",
+      day2: <a href="https://kavli-website-data.s3.ap-northeast-3.amazonaws.com/file-share/08_review_examples.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Breakout session on proposal review</a>,
       day3: "KIAA Colloquium by John"
     }
   ]
